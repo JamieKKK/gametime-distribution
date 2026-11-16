@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>安装 玩会儿</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+    body { margin: 0; min-height: 100svh; display: grid; place-items: center; background: Canvas; color: CanvasText; }
+    main { box-sizing: border-box; width: min(100% - 32px, 420px); padding: 28px; border: 1px solid GrayText; border-radius: 20px; text-align: center; }
+    h1 { font-size: 1.75rem; margin: 12px 0 4px; }
+    .details { font-size: .9rem; margin: 0 0 24px; }
+    .icon { display: block; margin: auto; border-radius: 14px; }
+    .install { display: block; padding: 14px 20px; border-radius: 12px; background: #145c53; color: #fff; font-weight: bold; text-decoration: none; }
+    .instructions { line-height: 1.55; margin: 18px 0 0; }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="icon" src="app-icon.png" width="64" height="64" alt="">
+    <h1>玩会儿</h1>
+    <p class="details">版本 1.0.0（100000） · iOS 17.0 或更新版本</p>
+    <a class="install" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fjamiekkk.github.io%2Fgametime-distribution%2Fmanifest.plist">安装测试版</a>
+    <p class="instructions">请用已登记的 iPhone 在 Safari 中打开。安装后如有提示，请在「设置 → 隐私与安全性」开启开发者模式。</p>
+  </main>
+</body>
+</html>
